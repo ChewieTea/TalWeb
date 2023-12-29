@@ -1,0 +1,28 @@
+:root {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    padding: 6vw;
+}
+
+body {
+    margin: 6vw;
+    z-index: 1;
+}
+
+body #BackgroundImageFix {
+    background: linear-gradient(180deg, rgba(0, 45, 77, 0.20) 0%, #2D2D2D 100%), url(media/code.png), lightgray 50% / cover;
+    height: max-content;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+header {
+    min-height: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem 1rem;
+
+}
