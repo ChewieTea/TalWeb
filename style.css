@@ -1,28 +1,57 @@
 :root {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 22px;
-    padding: 6vw;
 }
 
 body {
-    margin: 6vw;
+    margin:0;
+    background: linear-gradient(180deg, rgba(0, 45, 77, 0.20) 0%, #0F1B24 50%), url(media/code.png), #0F1B24 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: lightgrey;
     z-index: 1;
-}
-
-body #BackgroundImageFix {
-    background: linear-gradient(180deg, rgba(0, 45, 77, 0.20) 0%, #2D2D2D 100%), url(media/code.png), lightgray 50% / cover;
-    height: max-content;
-    width: 100%;
-    margin: 0;
-    position: relative;
-    z-index: 2;
 }
 
 header {
     min-height: 1.6rem;
+    position:fixed;
+    top:0;
+    min-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .6rem 1rem;
+    padding: 0 1rem;
+    letter-spacing: -0.8px;
 
+    background-color: rgba(15, 27, 36, 0.5);
+    backdrop-filter: blur(6px);
+    border-bottom: rgba(211, 211, 211, 0.2) solid .6px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: .7rem 0;
+
+    padding: .25rem .55rem;
+    background-color: #D9D9D9;
+    border-radius: 15px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li a { /* text sections */
+    font-size: 18px;
+    margin-inline: .45rem;
+    color: black;
+    text-decoration: none;
+    
+    padding: .2rem .35rem;
+    background-color: #D9D9D9;
+    border-radius: 10px;
 }
