@@ -3,3 +3,5 @@
 
 > [!tip]
 > This was designed using Figma. My first test website using figma to create ideas and use my skills to develop them.
+
+![strings of code that look cool; part of the website](/media/code.png)
